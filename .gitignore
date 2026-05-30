@@ -1,0 +1,49 @@
+*.cmd
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.o
+*.order
+*.symvers
+.cache.mk
+.tmp_versions/
+Module.symvers
+modules.order
+*.DS_Store
+.DS_Store
+
+# Kernel module build artifacts
+*.cmd
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.o
+*.order
+*.symvers
+modules.order
+Module.symvers
+.tmp_versions/
+.cache.mk
+
+# DKMS / packaging / local build outputs
+*.deb
+*.rpm
+*.tar
+*.tar.gz
+*.tgz
+*.xz
+*.zip
+
+# Editor / OS noise
+*~
+.idea/
+.vscode/
+.history/
+
+# Local logs and scratch files
+*.log
+*.tmp
+*.swp
+*.swo
